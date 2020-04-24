@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_queue"
+            android:checkable="true"
+            android:icon="@drawable/get_welfare_red_pack_icon"
+            android:title="测试连接" />
+        <item
+            android:id="@+id/nav_count"
+            android:checkable="true"
+            android:icon="@drawable/get_welfare_red_pack_icon"
+            android:title="打开航点选择" />
+        <item
+            android:id="@+id/nav_tv"
+            android:checkable="true"
+            android:icon="@drawable/get_welfare_red_pack_icon"
+            android:title="链接设置" />
+
+        <item
+            android:id="@+id/nav_clear"
+            android:checkable="true"
+            android:icon="@drawable/get_welfare_red_pack_icon"
+            android:title="清除所有" />
+
+        <item
+            android:id="@+id/nav_mode"
+            android:checkable="true"
+            android:icon="@drawable/get_welfare_red_pack_icon"
+            android:title="地图模式" />
+
+        <item
+            android:id="@+id/nav_more"
+            android:checkable="true"
+            android:icon="@drawable/get_welfare_red_pack_icon"
+            android:title="更多" />
+    </group>
+</menu>
